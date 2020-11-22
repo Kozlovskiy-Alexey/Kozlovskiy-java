@@ -26,7 +26,9 @@ public class Task01 {
 
         double mean = (double) summ / array.length;
         System.out.println("среднее значение суммы чисел массива = " + mean);
+        System.out.println();
     }
+
 }
 
 
