@@ -28,7 +28,7 @@ public class Task02 {
         for (int i = 0; i < array.length; i++) {
             array[i] = new int[i + 1]; // создание строки в массиве
         }
- //заполнение массива слева - направо
+        //заполнение массива слева - направо
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = intStart;
@@ -37,6 +37,7 @@ public class Task02 {
             }
             System.out.println();
         }
+
 
 
     }

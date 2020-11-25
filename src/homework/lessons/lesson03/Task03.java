@@ -57,7 +57,7 @@ public class Task03 {
             for (int j = 0; j < array[i].length; j++) {
                 int div1 = array[i][j] % 5;
                 int div2 = array[i][j] % 7;
-                if (div1 == 0 || div2 == 0) {
+                if (div1 == 0 ^ div2 == 0) {
                     System.out.print(array[i][j] + " ");
                 }
             }
