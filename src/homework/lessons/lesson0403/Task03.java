@@ -14,7 +14,7 @@ public class Task03 {
 */
         ArraysCalculator calculator = new ArraysCalculator();
         int[] array1 = new int[]{1, 2, 3};
-        int[] array2 = new int[]{5,7,9};
+        int[] array2 = new int[]{5, 7, 9, 5};
 
         int[] summ = calculator.summArrays(array1, array2);
         System.out.println(Arrays.toString(summ));
