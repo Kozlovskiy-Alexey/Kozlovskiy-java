@@ -13,7 +13,7 @@ public class Task03 {
 Вывести результат(массив сумм) на консоль.
 */
         ArraysCalculator calculator = new ArraysCalculator();
-        int[] array1 = new int[]{1, 2, 3};
+        int[] array1 = new int[]{1};
         int[] array2 = new int[]{5, 7, 9, 5};
 
         int[] summ = calculator.summArrays(array1, array2);
