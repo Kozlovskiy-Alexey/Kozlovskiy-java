@@ -12,10 +12,15 @@ public class Task0503 {
     public static void main(String[] args) {
         Order order1 = new Order("Chips", 10, 1.50);
         Order order2 = new Order("Coca", 2, 0.50);
+        Order order3 = new Order("Chocolate", 51, 1);
 
-        Order[] orders = new Order[]{order1, order2};
+        Order[] orders = new Order[]{order1, order2,order3};
 
         GetOrders get = new GetOrders();
+        double result = get.costAllOrders(orders);
+
+        System.out.printf("%.2f", result);
+
 
 
     }
