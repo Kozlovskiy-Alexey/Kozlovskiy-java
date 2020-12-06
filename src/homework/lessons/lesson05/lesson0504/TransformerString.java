@@ -2,6 +2,7 @@ package homework.lessons.lesson05.lesson0504;
 
 public class TransformerString {
     private int a;
+    private int sum = 0;
 
     public void getStringTransform(String[] arr, int num) {
         // решение через цикл for each
@@ -15,5 +16,12 @@ public class TransformerString {
 //            if (arr[i].length() >= num)
 //                System.out.print(arr[i] + " ");
 //        }
+    }
+
+    public int sumArray(int[] array) {
+        for (int x : array) {
+            sum = sum + x;
+        }
+        return sum;
     }
 }
